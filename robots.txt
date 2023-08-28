@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://ctom2.github.io/dx43/sitemap.xml
+Sitemap: https://dx43.com/sitemap.xml

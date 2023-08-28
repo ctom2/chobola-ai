@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Tomáš Chobola</title>
-    <link>https://ctom2.github.io/dx43/docs/</link>
+    <link>https://dx43.com/docs/</link>
     <description>Recent content in Docs on Tomáš Chobola</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Aug 2023 21:15:45 +0200</lastBuildDate><atom:link href="https://ctom2.github.io/dx43/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Aug 2023 21:15:45 +0200</lastBuildDate><atom:link href="https://dx43.com/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://ctom2.github.io/dx43/docs/test/</link>
+      <link>https://dx43.com/docs/test/</link>
       <pubDate>Mon, 28 Aug 2023 21:15:45 +0200</pubDate>
       
-      <guid>https://ctom2.github.io/dx43/docs/test/</guid>
+      <guid>https://dx43.com/docs/test/</guid>
       <description>test</description>
     </item>
     
