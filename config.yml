@@ -1,6 +1,6 @@
 baseURL: "https://ctom2.github.io/dx43"
 languageCode: en-us
-title: My New Hugo Site
+title: Tomáš Chobola
 theme: hugo-bearblog
 
 enableRobotsTXT: true
