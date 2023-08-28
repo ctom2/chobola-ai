@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on My New Hugo Site</title>
+    <title>Docs on Tomáš Chobola</title>
     <link>https://ctom2.github.io/dx43/docs/</link>
-    <description>Recent content in Docs on My New Hugo Site</description>
+    <description>Recent content in Docs on Tomáš Chobola</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Aug 2023 21:15:45 +0200</lastBuildDate><atom:link href="https://ctom2.github.io/dx43/docs/index.xml" rel="self" type="application/rss+xml" />
