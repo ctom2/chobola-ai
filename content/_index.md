@@ -15,6 +15,7 @@ Prior to my doctoral studies, I completed my master's degree in Data Engineering
 
 I grew up in the Czech Republic 🇨🇿 and was fortunate to spend time at The Hong Kong Polytechnic University.
 
+---
 
 ## Featuered Projects
 
