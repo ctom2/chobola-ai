@@ -16,7 +16,7 @@ Prior to my doctoral studies, I completed my master's degree in Data Engineering
 I grew up in the Czech Republic 🇨🇿 and was fortunate to spend time at The Hong Kong Polytechnic University.
 
 
-## Projects
+## Featuered Projects
 
 > [Zero-Shot Image Restoration](). More details soon.
 
