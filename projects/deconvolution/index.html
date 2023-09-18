@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tomáš Chobola</title>
+<meta name="title" content="Tomáš Chobola" />
+<meta name="description" content="A Feature-Driven Richardson-Lucy Deconvolution Network Example of light-sheet microscopy deconvolution with background subtraction.
+[arXiv] [GitHub] [MICCAI 23 poster]
+👨‍🔧 LUCYD is now available for testing in a Colab notebook: run here
+Contributions A lightweight deconvolution model that embeds the Richardson-Lucy image formation formula into a deep neural network The synergy between deep learning and classic formula for image formation reduces the necessity of having large amounts of training data Abstract The process of acquiring microscopic images in life sciences often results in image degradation and corruption, characterised by the presence of noise and blur, which poses significant challenges in accurately analysing and interpreting the obtained data." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="A Feature-Driven Richardson-Lucy Deconvolution Network Example of light-sheet microscopy deconvolution with background subtraction.
+[arXiv] [GitHub] [MICCAI 23 poster]
+👨‍🔧 LUCYD is now available for testing in a Colab notebook: run here
+Contributions A lightweight deconvolution model that embeds the Richardson-Lucy image formation formula into a deep neural network The synergy between deep learning and classic formula for image formation reduces the necessity of having large amounts of training data Abstract The process of acquiring microscopic images in life sciences often results in image degradation and corruption, characterised by the presence of noise and blur, which poses significant challenges in accurately analysing and interpreting the obtained data." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dx43.com/projects/deconvolution/" /><meta property="article:section" content="projects" />
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="A Feature-Driven Richardson-Lucy Deconvolution Network Example of light-sheet microscopy deconvolution with background subtraction.
+[arXiv] [GitHub] [MICCAI 23 poster]
+👨‍🔧 LUCYD is now available for testing in a Colab notebook: run here
+Contributions A lightweight deconvolution model that embeds the Richardson-Lucy image formation formula into a deep neural network The synergy between deep learning and classic formula for image formation reduces the necessity of having large amounts of training data Abstract The process of acquiring microscopic images in life sciences often results in image degradation and corruption, characterised by the presence of noise and blur, which poses significant challenges in accurately analysing and interpreting the obtained data."/>
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="A Feature-Driven Richardson-Lucy Deconvolution Network Example of light-sheet microscopy deconvolution with background subtraction.
+[arXiv] [GitHub] [MICCAI 23 poster]
+👨‍🔧 LUCYD is now available for testing in a Colab notebook: run here
+Contributions A lightweight deconvolution model that embeds the Richardson-Lucy image formation formula into a deep neural network The synergy between deep learning and classic formula for image formation reduces the necessity of having large amounts of training data Abstract The process of acquiring microscopic images in life sciences often results in image degradation and corruption, characterised by the presence of noise and blur, which poses significant challenges in accurately analysing and interpreting the obtained data.">
+
+<meta itemprop="wordCount" content="306">
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    padding: 16px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #ffffff;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #0c0d0e;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #fee313;
+    }
+
+    code {
+      background-color: #000000;
+    }
+
+    pre code {
+      color: #ffffff;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Tomáš Chobola</h2>
+</a>
+
+
+</header>
+  <main>
+
+<content>
+  <h1 id="a-feature-driven-richardson-lucy-deconvolution-network">A Feature-Driven Richardson-Lucy Deconvolution Network</h1>
+<p><img src="https://github.com/ctom2/dx43/blob/main/content/static/images/lucyd.gif?raw=true" alt="Light-sheet microscopy image deconvolution"></p>
+<p><em>Example of light-sheet microscopy deconvolution with background subtraction.</em></p>
+<p>[<a href="https://arxiv.org/abs/2307.07998">arXiv</a>] [<a href="https://github.com/ctom2/lucyd-deconvolution">GitHub</a>] [<a href="https://drive.google.com/file/d/17YhWWuLn86sBEK3tf-nIuQJORnhj3eaj/view?usp=sharing">MICCAI 23 poster</a>]</p>
+<hr>
+<p>👨‍🔧 LUCYD is now available for testing in a Colab notebook: <a href="https://colab.research.google.com/drive/1KG0Iv1bEcE2Hx7AYRBxk8I-mKRP5vKbw?usp=sharing">run here</a></p>
+<hr>
+<h3 id="contributions">Contributions</h3>
+<ol>
+<li>A lightweight deconvolution model that embeds the Richardson-Lucy image formation formula into a deep neural network</li>
+<li>The synergy between deep learning and classic formula for image formation reduces the necessity of having large amounts of training data</li>
+</ol>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>The process of acquiring microscopic images in life sciences often results in image degradation and corruption, characterised by the presence of noise and blur, which poses significant challenges in accurately analysing and interpreting the obtained data. This paper proposes LUCYD, a novel method for the restoration of volumetric microscopy images that combines the Richardson-Lucy deconvolution formula and the fusion of deep features obtained by a fully convolutional network. By integrating the image formation process into a feature-driven restoration model, the proposed approach aims to enhance the quality of the restored images whilst reducing computational costs and maintaining a high degree of interpretability. Our results demonstrate that LUCYD outperforms the state-of-the-art methods in both synthetic and real microscopy images, achieving superior performance in terms of image quality and generalisability. We show that the model can handle various microscopy modalities and different imaging conditions by evaluating it on two different microscopy datasets, including volumetric widefield and light-sheet microscopy. Our experiments indicate that LUCYD can significantly improve resolution, contrast, and overall quality of microscopy images. Therefore, it can be a valuable tool for microscopy image restoration and can facilitate further research in various microscopy applications.</p>
+</blockquote>
+<p>Please cite our work if you find it useful to your research.</p>
+<pre tabindex="0"><code>@article{chobola2023lucyd,
+  title={LUCYD: A Feature-Driven Richardson-Lucy Deconvolution Network},
+  author={Chobola, Tom{\&#39;a}{\v{s}} and M{\&#34;u}ller, Gesine and Dausmann, Veit and Theileis, Anton and Taucher, Jan and Huisken, Jan and Peng, Tingying},
+  journal={arXiv preprint arXiv:2307.07998},
+  year={2023}
+}
+</code></pre>
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
