@@ -15,7 +15,7 @@
       <description>A Feature-Driven Richardson-Lucy Deconvolution Network Example of light-sheet microscopy deconvolution with background subtraction.
 [arXiv] [GitHub] [MICCAI 23 poster]
 👨‍🔧 LUCYD is now available for testing in a Colab notebook: run here
-Contributions A lightweight deconvolution model that embeds the Richardson-Lucy image formation formula into a deep neural network The synergy between deep learning and classic formula for image formation reduces the necessity of having large amounts of training data Abstract The process of acquiring microscopic images in life sciences often results in image degradation and corruption, characterised by the presence of noise and blur, which poses significant challenges in accurately analysing and interpreting the obtained data.</description>
+Contributions A lightweight deconvolution model that embeds the Richardson-Lucy image formation formula into a deep neural network The synergy between deep learning and classic formula for image formation reduces the necessity of having large amounts of training data Abstract Please cite our work if you find it useful to your research.</description>
     </item>
     
   </channel>
