@@ -11,7 +11,7 @@
 
 I am a **doctoral candidate** at the Helmholtz Zentrum München and Technische Universität München, where I am researching **learnable algorithms** and methods for **computational microscopy**. My mission is to develop innovative techniques and approaches that significantly improve image quality, paving the way for advancements in bio-medical research.
 
-Prior to my doctoral studies, I completed my master's degree in Data Engineering and Analytics from Technische Universität München. Additionally, I have had the opportunity to contribute to several interesting projects that involve statistical modeling, transfer learning, and privacy-preserving machine learning.
+Prior to my doctoral studies, I completed my master's degree in Data Engineering and Analytics from Technische Universität München. Additionally, I had the opportunity to contribute to several interesting projects that involve statistical modeling, transfer learning, and privacy-preserving machine learning.
 
 I grew up in the Czech Republic 🇨🇿 and was fortunate to spend time at The Hong Kong Polytechnic University.
 
