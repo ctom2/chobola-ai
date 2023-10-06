@@ -4,7 +4,7 @@
 
 {{< rawhtml >}}
     <img 
-        src="https://github.com/ctom2/dx43/blob/main/content/static/images/profile.jpg" 
+        src="./static/images/profile.jpg" 
         alt="profile" 
         style="width:350px;"
     />
