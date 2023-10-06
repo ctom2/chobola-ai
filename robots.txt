@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://dx43.com/sitemap.xml
+Sitemap: https://chobola.ai/sitemap.xml
