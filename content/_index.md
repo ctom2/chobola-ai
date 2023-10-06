@@ -1,6 +1,6 @@
 [tomas.chobola@helmholtz-muenchen.de](mailto:tomas.chobola@helmholtz-muenchen.de)
 
-[𝕏](https://www.twitter.com/ifelsetom/) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [ORCID](https://orcid.org/my-orcid?orcid=0009-0000-3272-9996) / [CV](https://drive.google.com/file/d/1aTVBHezOojjhkbr-razPECpAsJrki1T9/view?usp=sharing)
+[𝕏](https://www.twitter.com/ifelsetom/) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [ORCID](https://orcid.org/0009-0000-3272-9996) / [CV](https://drive.google.com/file/d/1aTVBHezOojjhkbr-razPECpAsJrki1T9/view?usp=sharing)
 
 {{< rawhtml >}}
     <img 
