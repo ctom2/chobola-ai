@@ -19,6 +19,6 @@ I grew up in the Czech Republic 🇨🇿 and was fortunate to spend time at The 
 
 ## Featuered Projects
 
-> [Zero-Shot Image Restoration](). More details soon.
+> [Leveraging Classic Deconvolution and Feature Extraction in Zero-Shot Image Restoration](). Sharp microscopy image synthesis network optimised during inference, accepted to **ICCV '23** BioImage Computing Workshop.
 
 > [A Feature-Driven Richardson-Lucy Deconvolution Network](/projects/deconvolution). Volumentric microscopy image restoration model, accepted to **MICCAI '23**.
