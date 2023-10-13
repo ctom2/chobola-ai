@@ -13,10 +13,7 @@
 
 I am a **doctoral candidate** at the [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/computational-health-center) and [Technische Universität München](https://www.cit.tum.de/cit/startseite/).
 
-*My research interests include:*
-* Inverse problems in **computational microscopy**
-* **Image generation** and **image reconstruction** for biomedical imaging
-* Learnable algorithms
+*My research interests include:* Inverse problems in **computational microscopy**, **image generation** and **image reconstruction** for biomedical imaging, and learnable algorithms.
 
 My mission is to develop new techniques that improve image quality, paving the way for advancements in biomedical research.
 
