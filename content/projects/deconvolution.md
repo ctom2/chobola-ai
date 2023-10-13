@@ -2,7 +2,7 @@
 
 ![Light-sheet microscopy image deconvolution](https://github.com/ctom2/dx43/blob/main/content/static/images/lucyd.gif?raw=true)
 
-*Example of light-sheet microscopy deconvolution with background subtraction.*
+*Example of light-sheet microscopy image deconvolution with prior background subtraction.*
 
 \[[paper](https://link.springer.com/chapter/10.1007/978-3-031-43993-3_63)\] \[[arXiv](https://arxiv.org/abs/2307.07998)\] \[[GitHub](https://github.com/ctom2/lucyd-deconvolution)\] \[[MICCAI 23 poster](https://drive.google.com/file/d/17YhWWuLn86sBEK3tf-nIuQJORnhj3eaj/view?usp=sharing)\]
 
