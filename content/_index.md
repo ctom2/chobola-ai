@@ -29,7 +29,7 @@ I am also part of [MUDS](https://www.mu-ds.de).
 Prior to my doctoral studies, I completed my master's degree in Data Engineering and Analytics from TUM. 
 
 *Additionally, I had the opportunity to contribute to several projects that involve:*
-* [Privacy-preserving machine learning](https://arxiv.org/abs/2212.01082)
+* [Privacy-preserving machine learning](https://dl.acm.org/doi/10.1145/3605764.3623906)
 * [Transfer learning](https://proceedings.mlr.press/v140/chobola21a)
 * Statistical modeling
 
