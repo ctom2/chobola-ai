@@ -41,7 +41,7 @@ I was also fortunate to spend time at The Hong Kong Polytechnic University.
 
 > [Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations]().\
 One-shot low-light image enhancement based on the HSV color space.\
-Accepted to **ECCV '23**.
+Accepted to **ECCV '24**.
 
 > [Leveraging Classic Deconvolution and Feature Extraction in Zero-Shot Image Restoration](https://arxiv.org/abs/2310.02097).\
 Self-supervised network for microscopy image synthesis.\
