@@ -39,7 +39,7 @@ I was also fortunate to spend time at The Hong Kong Polytechnic University.
 
 ## Featuered projects
 
-> [Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations]().
+> [Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations]().\
 One-shot low-light image enhancement based on the HSV color space.\
 Accepted to **ECCV '23**.
 
