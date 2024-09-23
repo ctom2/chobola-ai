@@ -2,16 +2,9 @@
 
 [𝕏](https://www.twitter.com/ifelsetom/) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [ORCID](https://orcid.org/0009-0000-3272-9996) / [CV](https://drive.google.com/file/d/1aTVBHezOojjhkbr-razPECpAsJrki1T9/view?usp=sharing) / 🇨🇿
 
-I am a **doctoral candidate** at the [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/computational-health-center) and [Technische Universität München](https://www.cit.tum.de/cit/startseite/).
+I'm a **doctoral candidate** at the [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/computational-health-center) and [Technische Universität München](https://www.cit.tum.de/cit/startseite/). I'm also part of [MUDS](https://www.mu-ds.de) and [HELENA](https://cams.helmholtz-munich.de/helena).
 
-*My research interests include:* 
-* Inverse problems in **computational microscopy**
-* **Image generation** and **image reconstruction**
-* Self-supervised and unsupervised learning
-
-My mission is to develop new techniques that improve image quality, paving the way for advancements in biomedical research.
-
-I am also part of [MUDS](https://www.mu-ds.de) and [HELENA](https://cams.helmholtz-munich.de/helena).
+My research interests include inverse problems in **computational microscopy**, **image generation** and **image reconstruction**, and self-supervised and unsupervised learning. The focus of my work is to create and refine imaging techniques that will lead to better image quality, facilitating progress in the biomedical field.
 
 🚨 Currently, I'm available to supervise driven students, offering thesis topics for both bachelor's and master's degrees in the fields of image processing and restoration with the focus on biomedical imaging. 
 
