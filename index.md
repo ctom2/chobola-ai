@@ -13,6 +13,8 @@ My mission is to develop new techniques that improve image quality, paving the w
 
 I am also part of [MUDS](https://www.mu-ds.de) and [HELENA](https://cams.helmholtz-munich.de/helena).
 
+🚨 Currently, I'm available to supervise driven students, offering thesis topics for both bachelor's and master's degrees in the fields of image processing and restoration with the focus on biomedical imaging. 
+
 ---
 
 ## Featuered projects
