@@ -11,20 +11,7 @@ I am a **doctoral candidate** at the [Helmholtz Zentrum München](https://www.he
 
 My mission is to develop new techniques that improve image quality, paving the way for advancements in biomedical research.
 
-I am also part of [MUDS](https://www.mu-ds.de).
-
----
-
-## Education & previous projects
-
-Prior to my doctoral studies, I completed my master's degree in Data Engineering and Analytics from TUM. 
-
-*Additionally, I had the opportunity to contribute to several projects that involve:*
-* [Privacy-preserving machine learning](https://dl.acm.org/doi/10.1145/3605764.3623906)
-* [Transfer learning](https://proceedings.mlr.press/v140/chobola21a)
-* Statistical modeling
-
-I was also fortunate to spend time at The Hong Kong Polytechnic University.
+I am also part of [MUDS](https://www.mu-ds.de) and [HELENA](https://cams.helmholtz-munich.de/helena).
 
 ---
 
@@ -42,3 +29,16 @@ Accepted to **ICCV '23** BioImage Computing Workshop.
 > [A Feature-Driven Richardson-Lucy Deconvolution Network](https://arxiv.org/abs/2307.07998).\
 Volumentric microscopy image restoration model.\
 Accepted to **MICCAI '23**.
+
+---
+
+## Education & previous projects
+
+Prior to my doctoral studies, I completed my master's degree in Data Engineering and Analytics from TUM. 
+
+*Additionally, I had the opportunity to contribute to several projects that involve:*
+* [Privacy-preserving machine learning](https://dl.acm.org/doi/10.1145/3605764.3623906)
+* [Transfer learning](https://proceedings.mlr.press/v140/chobola21a)
+* Statistical modeling
+
+I was also fortunate to spend time at The Hong Kong Polytechnic University.
