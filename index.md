@@ -1,4 +1,4 @@
-[tomas.chobola@helmholtz-muenchen.de](mailto:tomas.chobola@helmholtz-muenchen.de)
+📫 [tomas.chobola@helmholtz-muenchen.de](mailto:tomas.chobola@helmholtz-muenchen.de)
 
 [𝕏](https://www.twitter.com/ifelsetom/) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [ORCID](https://orcid.org/0009-0000-3272-9996) / [CV](https://drive.google.com/file/d/1aTVBHezOojjhkbr-razPECpAsJrki1T9/view?usp=sharing) / 🇨🇿
 
@@ -6,7 +6,7 @@ I am a **doctoral candidate** at the [Helmholtz Zentrum München](https://www.he
 
 *My research interests include:* 
 * Inverse problems in **computational microscopy**
-* **Image generation** and **image reconstruction** for biomedical imaging
+* **Image generation** and **image reconstruction**
 * Self-supervised and unsupervised learning
 
 My mission is to develop new techniques that improve image quality, paving the way for advancements in biomedical research.
