@@ -1,6 +1,6 @@
 📫 [tomas.chobola@helmholtz-muenchen.de](mailto:tomas.chobola@helmholtz-muenchen.de)
 
-[𝕏](https://www.twitter.com/ifelsetom/) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [ORCID](https://orcid.org/0009-0000-3272-9996) / [CV](https://drive.google.com/file/d/1aTVBHezOojjhkbr-razPECpAsJrki1T9/view?usp=sharing) / 🇨🇿
+[𝕏](https://www.twitter.com/ifelsetom/) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [ORCID](https://orcid.org/0009-0000-3272-9996) / [CV](https://drive.google.com/file/d/1-2p-TzWHUiDECNFA_vra4QvkY2P7QHNW/view?usp=sharing) / 🇨🇿
 
 I'm a **doctoral candidate** at the [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/computational-health-center) and [Technische Universität München](https://www.cit.tum.de/cit/startseite/). I'm also part of [MUDS](https://www.mu-ds.de) and [HELENA](https://cams.helmholtz-munich.de/helena).
 
