@@ -12,8 +12,7 @@ My research interests include inverse problems in **computational microscopy**, 
 
 ## Featuered projects
 
-> ![colie](imgs/colie.png)\
-[Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations]().\
+> [Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations]().\
 One-shot low-light image enhancement based on the HSV color space.\
 Accepted to **ECCV '24**.
 
