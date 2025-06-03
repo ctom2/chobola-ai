@@ -12,7 +12,11 @@ My research interests include inverse problems in **computational microscopy**, 
 
 ## Featuered projects
 
-> [Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations]().\
+> [Lightweight Data-Free Denoising for Detail-Preserving Biomedical Image Restoration]().\
+Super lightweight single image-based denoising.\
+Early accepted to **MICCAI '25**.
+
+> [Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations](https://arxiv.org/abs/2407.12511).\
 One-shot low-light image enhancement based on the HSV color space.\
 Accepted to **ECCV '24**.
 
