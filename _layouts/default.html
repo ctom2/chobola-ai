@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <style>
-        /* Your custom CSS starts here. Customize these as needed! */
-        
+        /* Your custom CSS starts here. Customized for a dark terminal theme inspired by Dracula. */
+
         /* Basic reset for consistency */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
-        /* Body styles: Set font, colors, margins */
+
+        /* Body styles: Dark background, light text for terminal feel */
         body {
-            font-family: 'Arial', sans-serif;  /* Change to your preferred font, e.g., 'Helvetica', 'Times New Roman', or a web-safe font */
+            font-family: 'Arial', sans-serif;  /* Change to a monospace font like 'Courier New' for more terminal authenticity */
             font-size: 16px;  /* Base font size */
             line-height: 1.6;  /* Spacing between lines */
-            color: #81a1c1;  /* Text color (dark gray) */
-            background-color: #2e3440;  /* Background color (white) */
+            color: #f8f8f2;  /* Light foreground text */
+            background-color: #282a36;  /* Dark purple-black background */
             margin: 40px auto;  /* Top/bottom margins 40px, left/right auto for centering */
             padding: 0 20px;  /* Left/right padding */
             max-width: 800px;  /* Max width to prevent super-wide pages on large screens */
         }
-        
-        /* Headings: Customize sizes and colors */
+
+        /* Headings: Purple accents for visibility */
         h1, h2, h3, h4, h5, h6 {
-            color: #88c0d0;  /* Heading color (black) */
+            color: #bd93f9;  /* Purple heading color */
             margin-bottom: 20px;  /* Space below headings */
         }
         h1 {
@@ -37,7 +37,7 @@
         h2 {
             font-size: 24px;
         }
-        
+
         /* Paragraphs and lists: Add margins */
         p {
             margin-bottom: 16px;  /* Space below paragraphs */
@@ -46,74 +46,82 @@
             margin-bottom: 16px;
             padding-left: 40px;  /* Indent lists */
         }
-        
-        /* Links: Customize color and hover */
+
+        /* Links: Cyan for that terminal pop */
         a {
-            color: #eceff4;  /* Link color (blue) */
+            color: #8be9fd;  /* Cyan link color */
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+            color: #50fa7b;  /* Green on hover */
         }
-        
-        /* Code blocks: Simple styling */
+
+        /* Code blocks: Darker background with light text */
         pre, code {
-            background-color: #f4f4f4;  /* Light gray background */
+            background-color: #44475a;  /* Darker gray background */
+            color: #f8f8f2;  /* Light text */
             padding: 10px;
             border-radius: 4px;
             font-family: 'Courier New', monospace;
         }
-        
-        /* Add more custom rules here as needed, e.g., for images or tables */
+
+        /* Images: Ensure they fit nicely */
         img {
             max-width: 100%;
             height: auto;
             margin: 20px 0;
         }
 
-        /* New: Blockquotes for Markdown quotes */
+        /* Blockquotes: Subtle darker shade with gray border */
         blockquote {
             margin: 20px 0;
             padding: 10px 20px;
-            border-left: 4px solid #4c566a;  /* Gray left border */
-            color: #81a1c1;  /* Slightly lighter text */
-            font-style: italic;  /* Italic for quote feel */
-            background-color: #3b4252;  /* Very light background */
+            border-left: 4px solid #6272a4;  /* Comment gray border */
+            color: #f8f8f2;  /* Light text */
+            font-style: italic;
+            background-color: #44475a;  /* Darker background */
         }
         blockquote p {
             margin-bottom: 0;  /* No extra space in nested paragraphs */
         }
 
-        /* New: Tables for Markdown tables */
+        /* Tables: Borders and alternating shades */
         table {
             width: 100%;  /* Full width */
             border-collapse: collapse;  /* Clean borders */
             margin-bottom: 20px;
         }
         th, td {
-            border: 1px solid #dddddd;  /* Light borders */
+            border: 1px solid #6272a4;  /* Gray borders */
             padding: 8px;  /* Cell padding */
             text-align: left;  /* Left align by default */
+            color: #f8f8f2;  /* Light text */
         }
         th {
-            background-color: #f4f4f4;  /* Header background */
+            background-color: #44475a;  /* Header background */
             font-weight: bold;
         }
+        tr:nth-child(even) {
+            background-color: #44475a;  /* Alternate row shading for readability */
+        }
 
-        /* New: Horizontal rules for --- in Markdown */
+        /* Horizontal rules: Subtle gray line */
         hr {
             border: 0;
             height: 1px;
-            background-color: #cccccc;  /* Gray line */
+            background-color: #6272a4;  /* Gray line */
             margin: 20px 0;
         }
 
-        /* New: Strengthen bold and italic for emphasis */
+        /* Strengthen bold and italic for emphasis */
         strong {
             font-weight: bold;
+            color: #50fa7b;  /* Green for bold */
         }
         em {
             font-style: italic;
+            color: #ffb86c;  /* Orange for italics */
         }
     </style>
 </head>
