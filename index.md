@@ -57,6 +57,8 @@ Here are projects published at top-tier computer vision conferences.
 
 **Links:** **[Paper](https://openaccess.thecvf.com/content/ICCV2023W/BIC/papers/Chobola_Leveraging_Classic_Deconvolution_and_Feature_Extraction_in_Zero-Shot_Image_Restoration_ICCVW_2023_paper.pdf)**, **[Code](https://github.com/ctom2/cider)**
 
+![cider](imgs/cider.png)
+
 ### 4. Quantifying Privacy Risks in Medical AI (AISec 2023)
 
 > **Problem:** AI models in high-stakes fields like healthcare are vulnerable to privacy and poisoning attacks. An attacker could "infer" if a specific patient's data was used in training (a severe privacy violation) or "poison" the model to fail.  
