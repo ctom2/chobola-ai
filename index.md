@@ -45,6 +45,8 @@ Here are projects published at top-tier computer vision conferences.
 
 **Links:** **[Paper](https://arxiv.org/pdf/2510.15611)**, **[Code](https://github.com/ctom2/noise2detail)**, **[Online demo](https://colab.research.google.com/github/ctom2/noise2detail/blob/main/noise2detail-notebook.ipynb)**
 
+![noise2detail](imgs/noise2detail.png)
+
 ### 3. CiDeR: Zero-Shot Restoration for Data-Scarce Scientific Imaging (ICCV'23 Workshop)
 
 > **Problem:** Specialized fields in image acquisition often suffer from image degradation in the form of a blur. Existing natural image deblurring algorithms often don't work for specialized fields, such as biomedical imaging, as the domain gap is too large. Obtaining a sufficient amount of training data to re-train such models is often too expensive or even impossible.  
