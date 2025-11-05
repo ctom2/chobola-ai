@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <style>
-        /* Your custom CSS starts here. Customized for Night Owl IDE theme. */
+        /* Your custom CSS starts here. Customized with cold blues and light greens on a dark background. */
 
         /* Basic reset for consistency */
         * {
@@ -14,21 +14,21 @@
             box-sizing: border-box;
         }
 
-        /* Body styles: Dark background, light text for IDE feel */
+        /* Body styles: Dark background, light text */
         body {
-            font-family: 'Roboto', monospace;  /* Monospace font for IDE authenticity; change back to 'Arial', sans-serif if preferred */
+            font-family: 'Roboto', sans-serif;  /* Updated to Roboto as requested */
             font-size: 16px;  /* Base font size */
             line-height: 1.6;  /* Spacing between lines */
-            color: #d6deeb;  /* Foreground text */
-            background-color: #011627;  /* Dark blue-black background */
+            color: #abb2bf;  /* Light gray text */
+            background-color: #282c34;  /* Cool dark gray-blue background */
             margin: 40px auto;  /* Top/bottom margins 40px, left/right auto for centering */
             padding: 0 20px;  /* Left/right padding */
             max-width: 800px;  /* Max width to prevent super-wide pages on large screens */
         }
 
-        /* Headings: Purple for keywords */
+        /* Headings: Cold blue for accents */
         h1, h2, h3, h4, h5, h6 {
-            color: #c792ea;  /* Purple heading color */
+            color: #61afef;  /* Cold blue heading color */
             margin-bottom: 20px;  /* Space below headings */
         }
         h1 {
@@ -47,20 +47,20 @@
             padding-left: 40px;  /* Indent lists */
         }
 
-        /* Links: Blue for functions */
+        /* Links: Cold blue with light green hover */
         a {
-            color: #82aaff;  /* Blue link color */
+            color: #61afef;  /* Cold blue link color */
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
-            color: #7fdbca;  /* Cyan on hover for variables */
+            color: #98c379;  /* Light green on hover */
         }
 
         /* Code blocks: Darker background with light text */
         pre, code {
-            background-color: #0b253a;  /* Darker input-like background */
-            color: #d6deeb;  /* Light text */
+            background-color: #21252b;  /* Darker gray background */
+            color: #abb2bf;  /* Light text */
             padding: 10px;
             border-radius: 4px;
             font-family: 'Courier New', monospace;
@@ -77,10 +77,10 @@
         blockquote {
             margin: 20px 0;
             padding: 10px 20px;
-            border-left: 4px solid #5f7e97;  /* Subtle blue-gray border */
-            color: #d6deeb;  /* Light text */
+            border-left: 4px solid #4b5362;  /* Subtle gray-blue border */
+            color: #abb2bf;  /* Light text */
             font-style: italic;
-            background-color: #011627;  /* Same as body background for better embedding */
+            background-color: #282c34;  /* Same as body background for better embedding */
         }
         blockquote p {
             margin-bottom: 0;  /* No extra space in nested paragraphs */
@@ -93,35 +93,35 @@
             margin-bottom: 20px;
         }
         th, td {
-            border: 1px solid #5f7e97;  /* Blue-gray borders */
+            border: 1px solid #4b5362;  /* Gray-blue borders */
             padding: 8px;  /* Cell padding */
             text-align: left;  /* Left align by default */
-            color: #d6deeb;  /* Light text */
+            color: #abb2bf;  /* Light text */
         }
         th {
-            background-color: #0b253a;  /* Header background */
+            background-color: #21252b;  /* Header background */
             font-weight: bold;
         }
         tr:nth-child(even) {
-            background-color: #122d42;  /* Alternate row shading for readability */
+            background-color: #21252b;  /* Alternate row shading for readability */
         }
 
-        /* Horizontal rules: Subtle blue-gray line */
+        /* Horizontal rules: Subtle gray-blue line */
         hr {
             border: 0;
             height: 1px;
-            background-color: #5f7e97;  /* Blue-gray line */
+            background-color: #4b5362;  /* Gray-blue line */
             margin: 20px 0;
         }
 
         /* Strengthen bold and italic for emphasis */
         strong {
             font-weight: bold;
-            color: #ff5874;  /* Pink for bold (booleans/constants) */
+            color: #98c379;  /* Light green for bold */
         }
         em {
             font-style: italic;
-            color: #ecc48d;  /* Yellow-orange for italics (strings) */
+            color: #56b6c2;  /* Cyan blue for italics */
         }
     </style>
 </head>
