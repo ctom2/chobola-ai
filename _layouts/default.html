@@ -70,6 +70,51 @@
             height: auto;
             margin: 20px 0;
         }
+
+        /* New: Blockquotes for Markdown quotes */
+        blockquote {
+            margin: 20px 0;
+            padding: 10px 20px;
+            border-left: 4px solid #cccccc;  /* Gray left border */
+            color: #666666;  /* Slightly lighter text */
+            font-style: italic;  /* Italic for quote feel */
+            background-color: #f9f9f9;  /* Very light background */
+        }
+        blockquote p {
+            margin-bottom: 0;  /* No extra space in nested paragraphs */
+        }
+
+        /* New: Tables for Markdown tables */
+        table {
+            width: 100%;  /* Full width */
+            border-collapse: collapse;  /* Clean borders */
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #dddddd;  /* Light borders */
+            padding: 8px;  /* Cell padding */
+            text-align: left;  /* Left align by default */
+        }
+        th {
+            background-color: #f4f4f4;  /* Header background */
+            font-weight: bold;
+        }
+
+        /* New: Horizontal rules for --- in Markdown */
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #cccccc;  /* Gray line */
+            margin: 20px 0;
+        }
+
+        /* New: Strengthen bold and italic for emphasis */
+        strong {
+            font-weight: bold;
+        }
+        em {
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
