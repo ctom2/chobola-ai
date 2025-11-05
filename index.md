@@ -47,19 +47,7 @@ Here are projects published at top-tier computer vision conferences.
 
 ![noise2detail](imgs/noise2detail.png)
 
-### 3. CiDeR: Zero-Shot Restoration for Data-Scarce Scientific Imaging (ICCV'23 Workshop)
-
-> **Problem:** Specialized fields in image acquisition often suffer from image degradation in the form of a blur. Existing natural image deblurring algorithms often don't work for specialized fields, such as biomedical imaging, as the domain gap is too large. Obtaining a sufficient amount of training data to re-train such models is often too expensive or even impossible.  
-
-> **Solution:** I developed **CiDeR**, a **self-supervised, zero-shot** framework that restores sharp images *without any ground-truth data*. It creates a hybrid model by embedding a classic, physics-based algorithm (Richardson-Lucy) into a lightweight deep image prior.  
-
-> **Value:** This model is robust, compute-efficient (~7.3x fewer parameters than a baseline), and adapts to new types of images *without retraining*. It directly solves the "no data" problem for high-stakes scientific and biomedical imaging.
-
-**Links:** **[Paper](https://openaccess.thecvf.com/content/ICCV2023W/BIC/papers/Chobola_Leveraging_Classic_Deconvolution_and_Feature_Extraction_in_Zero-Shot_Image_Restoration_ICCVW_2023_paper.pdf)**, **[Code](https://github.com/ctom2/cider)**
-
-![cider](imgs/cider.png)
-
-### 4. Quantifying Privacy Risks in Medical AI (AISec 2023)
+### 3. Quantifying Privacy Risks in Medical AI (AISec 2023)
 
 > **Problem:** AI models in high-stakes fields like healthcare are vulnerable to privacy and poisoning attacks. An attacker could "infer" if a specific patient's data was used in training (a severe privacy violation) or "poison" the model to fail.  
 
@@ -69,7 +57,7 @@ Here are projects published at top-tier computer vision conferences.
 
 **Links:** **[Paper](https://arxiv.org/pdf/2212.01082)**, **[Code](https://github.com/ctom2/seg-mia)**
 
-### 5. 2nd Place, AAAI 2021 MetaDL Challenge (Few-Shot Learning)
+### 4. 2nd Place, AAAI 2021 MetaDL Challenge (Few-Shot Learning)
 
 > **Problem:** How can you build a high-accuracy classifier when you only have a *few* labeled examples (1-shot or 5-shot learning)?  
 
