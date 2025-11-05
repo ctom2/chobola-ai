@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <style>
+        /* Your custom CSS starts here. Customize these as needed! */
+        
+        /* Basic reset for consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Body styles: Set font, colors, margins */
+        body {
+            font-family: 'Arial', sans-serif;  /* Change to your preferred font, e.g., 'Helvetica', 'Times New Roman', or a web-safe font */
+            font-size: 16px;  /* Base font size */
+            line-height: 1.6;  /* Spacing between lines */
+            color: #333333;  /* Text color (dark gray) */
+            background-color: #ffffff;  /* Background color (white) */
+            margin: 40px auto;  /* Top/bottom margins 40px, left/right auto for centering */
+            padding: 0 20px;  /* Left/right padding */
+            max-width: 800px;  /* Max width to prevent super-wide pages on large screens */
+        }
+        
+        /* Headings: Customize sizes and colors */
+        h1, h2, h3, h4, h5, h6 {
+            color: #000000;  /* Heading color (black) */
+            margin-bottom: 20px;  /* Space below headings */
+        }
+        h1 {
+            font-size: 32px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        
+        /* Paragraphs and lists: Add margins */
+        p {
+            margin-bottom: 16px;  /* Space below paragraphs */
+        }
+        ul, ol {
+            margin-bottom: 16px;
+            padding-left: 40px;  /* Indent lists */
+        }
+        
+        /* Links: Customize color and hover */
+        a {
+            color: #0066cc;  /* Link color (blue) */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Code blocks: Simple styling */
+        pre, code {
+            background-color: #f4f4f4;  /* Light gray background */
+            padding: 10px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        /* Add more custom rules here as needed, e.g., for images or tables */
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    {{ content }}  <!-- This is where your Markdown content gets inserted -->
+</body>
+</html>

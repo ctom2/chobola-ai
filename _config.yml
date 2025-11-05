@@ -1,9 +1,2 @@
-remote_theme: pages-themes/hacker
-plugins:
-- jekyll-theme-hacker # add this line to the plugins list if you already have oneremote_theme: jekyll-theme-minimal
-
-show_downloads: false
-
-logo: /imgs/profile.jpg
-
 title: Tomáš Chobola
+theme: null
