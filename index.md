@@ -1,43 +1,74 @@
-📫 [tomas.chobola@helmholtz-muenchen.de](mailto:tomas.chobola@helmholtz-muenchen.de)
-
-[𝕏](https://www.twitter.com/ifelsetom/) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [ORCID](https://orcid.org/0009-0000-3272-9996) / [CV](https://drive.google.com/file/d/1-2p-TzWHUiDECNFA_vra4QvkY2P7QHNW/view?usp=sharing) / 🇨🇿
-
-I'm a **doctoral candidate** at the [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/computational-health-center) and [Technische Universität München](https://www.cit.tum.de/cit/startseite/). I'm also part of [MUDS](https://www.mu-ds.de) and [HELENA](https://cams.helmholtz-munich.de/helena).
-
-My research interests include inverse problems in **computational microscopy**, **image generation** and **image reconstruction**, and self-supervised and unsupervised learning. The focus of my work is to create and refine imaging techniques that will lead to better image quality, facilitating progress in the biomedical field.
-
-🚨 Currently, I'm available to supervise driven students, offering thesis topics for both bachelor's and master's degrees in the fields of image processing and restoration with the focus on biomedical imaging. 
+**AI Scientist (PhD) | Computer Vision, Efficient ML, Self-Supervised Learning**  
+[𝕏](https://x.com/ifelsetom) / [LinkedIn](https://linkedin.com/in/tchobola) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [CV (PDF)](https://drive.google.com/file/d/1-2p-TzWHUiDECNFA_vra4QvkY2P7QHNW/view?usp=sharing)
 
 ---
 
-## Featuered projects
+### 👋 About Me
+I am an **AI Scientist (PhD)** specializing in computer vision. My research focuses on solving hard, real-world problems where data is scarce and compute is limited. I build **efficient, lightweight models** for data- and compute-scarce environments, and I leverage **self-supervised** and **zero-shot learning** to create robust AI that can learn from unlabeled data and adapt to new challenges. My work has been published at top-tier conferences like ECCV, ICCV, AAAI, and MICCAI.
 
-> [Lightweight Data-Free Denoising for Detail-Preserving Biomedical Image Restoration]().\
-Super lightweight single image-based denoising.\
-Early accepted to **MICCAI '25**.
-
-> [Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations](https://arxiv.org/abs/2407.12511).\
-One-shot low-light image enhancement based on the HSV color space.\
-Accepted to **ECCV '24**.
-
-> [Leveraging Classic Deconvolution and Feature Extraction in Zero-Shot Image Restoration](https://arxiv.org/abs/2310.02097).\
-Self-supervised network for microscopy image synthesis.\
-Accepted to **ICCV '23** BioImage Computing Workshop.
-
-<!-- > [A Feature-Driven Richardson-Lucy Deconvolution Network](/projects/deconvolution).\ -->
-> [A Feature-Driven Richardson-Lucy Deconvolution Network](https://arxiv.org/abs/2307.07998).\
-Volumentric microscopy image restoration model.\
-Accepted to **MICCAI '23**.
+My most recent research involves image restoration models and training foundation models for biomedical image processing.
 
 ---
 
-## Education & previous projects
+### 🛠️ Technical Proficiencies
+* **ML skills:** Self-supervised learning, zero-shot learning, compute- and data-constrained environments, efficient ML, computer vision, image generation and restoration, large-scale and foundational vision models
+* **Programming languages:** Python, C/C++, SQL, Bash
+* **Libraries:** PyTorch, Scikit-Learn, NumPy, Pandas, OpenCV, Matplotlib
+* **Developer Tools:** Git, HPC, LaTeX, LLM-assisted coding
 
-Prior to my doctoral studies, I completed my master's degree in Data Engineering and Analytics from TUM. 
+---
 
-Additionally, I had the opportunity to contribute to several projects that involve:
-* [Privacy-preserving machine learning](https://dl.acm.org/doi/10.1145/3605764.3623906)
-* [Transfer learning](https://proceedings.mlr.press/v140/chobola21a)
-* Statistical modeling
+## Featured Projects
+Here are projects published at top-tier computer vision conferences.
 
-I was also fortunate to spend time at The Hong Kong Polytechnic University.
+### 1. CoLIE: Fast, Zero-Shot Low-Light Image Enhancement (ECCV'24)
+
+> **Problem:** Enhancing low-light, high-resolution photos is computationally expensive. Current models trained on one dataset often fail on new, unseen scenes, leading to poor user experience.  
+
+> **Solution:** I built **CoLIE**, a **zero-shot** model that enhances an image without any additional training data apart from the degraded image itself within seconds by mapping 2D image coordinates to the illumination component while working in the HSV color space, avoiding the color distortion other methods suffer from.  
+
+> **Value:** Inference is done within a couple of seconds and is **independent of image resolution**: it's just as fast on a 4K image as a 480p one. This makes it ideal for near real-time, on-device applications and improves downstream tasks, such as object detection in the dark.
+
+**Links:** **[Paper](https://arxiv.org/abs/2407.12511)**, **[Code](https://github.com/ctom2/colie)**, **[Online demo](https://colab.research.google.com/github/ctom2/colie)**
+
+![colie](imgs/colie.png)
+
+### 2. Noise2Detail: Ultra-Lightweight Data-Free Denoising (MICCAI'25)
+
+> **Problem:** Most AI denoisers consist of millions of parameters, making them unusable for real-time or on-device applications like microscopes or clinical hardware. They also require massive, expensive datasets of "clean" images which are in many cases impossible to obtain.  
+
+> **Solution:** I developed **Noise2Detail**, an "ultra-lightweight" model with only **22k parameters** that requires **zero clean training data**. The model is trained during inference using only the *single noisy input image* through a novel multi-stage refinement pipeline.  
+
+> **Value:** The model outperforms much larger self-supervised methods while being orders of magnitude smaller and faster.
+
+**Links:** **[Paper](https://arxiv.org/pdf/2510.15611)**, **[Code](https://github.com/ctom2/noise2detail)**, **[Online demo](https://colab.research.google.com/github/ctom2/noise2detail/blob/main/noise2detail-notebook.ipynb)**
+
+### 3. CiDeR: Zero-Shot Restoration for Data-Scarce Scientific Imaging (ICCV'23 Workshop)
+
+> **Problem:** Specialized fields in image acquisition often suffer from image degradation in the form of a blur. Existing natural image deblurring algorithms often don't work for specialized fields, such as biomedical imaging, as the domain gap is too large. Obtaining a sufficient amount of training data to re-train such models is often too expensive or even impossible.  
+
+> **Solution:** I developed **CiDeR**, a **self-supervised, zero-shot** framework that restores sharp images *without any ground-truth data*. It creates a hybrid model by embedding a classic, physics-based algorithm (Richardson-Lucy) into a lightweight deep image prior.  
+
+> **Value:** This model is robust, compute-efficient (~7.3x fewer parameters than a baseline), and adapts to new types of images *without retraining*. It directly solves the "no data" problem for high-stakes scientific and biomedical imaging.
+
+**Links:** **[Paper](https://openaccess.thecvf.com/content/ICCV2023W/BIC/papers/Chobola_Leveraging_Classic_Deconvolution_and_Feature_Extraction_in_Zero-Shot_Image_Restoration_ICCVW_2023_paper.pdf)**, **[Code](https://github.com/ctom2/cider)**
+
+### 4. Quantifying Privacy Risks in Medical AI (AISec 2023)
+
+> **Problem:** AI models in high-stakes fields like healthcare are vulnerable to privacy and poisoning attacks. An attacker could "infer" if a specific patient's data was used in training (a severe privacy violation) or "poison" the model to fail.  
+
+> **Solution:** I conducted one of the first exhaustive studies of these attacks on *semantic segmentation* models. I quantitatively benchmarked the vulnerability of popular architectures and analyzed the trade-offs of various defenses.  
+
+> **Value:** This research identifies and quantifies critical security vulnerabilities in medical AI systems. It provides a blueprint for **trustworthy AI**, helping engineers build more robust and secure models by understanding the specific "privacy-utility trade-offs" of their design choices.
+
+**Links:** **[Paper](https://arxiv.org/pdf/2212.01082)**, **[Code](https://github.com/ctom2/seg-mia)**
+
+### 5. 2nd Place, AAAI 2021 MetaDL Challenge (Few-Shot Learning)
+
+> **Problem:** How can you build a high-accuracy classifier when you only have a *few* labeled examples (1-shot or 5-shot learning)?  
+
+> **Solution:** I developed a novel transfer-learning pipeline that **won 2nd Place at the AAAI 2021 MetaDL Challenge**. My method transforms the latent space of a pretrained network to better cluster classes and uses optimal transport mapping to better leverage *unlabeled* data.  
+
+> **Value:** My solution in this high-pressure competition significantly outperformed baselines and models developed by numerous competitors from all around the world.
+
+**Links:** **[Paper](http://proceedings.mlr.press/v140/chobola21a/chobola21a.pdf)**, **[Code](https://github.com/ctom2/few-shot-comp)**
