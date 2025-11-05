@@ -1,12 +1,12 @@
 # Tomáš Chobola
 
-**AI Scientist (PhD) | Computer Vision, Efficient ML, Self-Supervised Learning**  
-[𝕏](https://x.com/ifelsetom) / [LinkedIn](https://linkedin.com/in/tchobola) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / [CV (PDF)](https://drive.google.com/file/d/1-2p-TzWHUiDECNFA_vra4QvkY2P7QHNW/view?usp=sharing)
+**AI Scientist (PhD) / Computer Vision, Efficient ML, Self-Supervised Learning**  
+[𝕏](https://x.com/ifelsetom) / [LinkedIn](https://linkedin.com/in/tchobola) / [GitHub](https://www.github.com/ctom2/) / [Google Scholar](https://scholar.google.com/citations?user=KoL2wdQAAAAJ) / 🇨🇿
 
 ---
 
 ### About Me
-I am an **AI Scientist (PhD)** specializing in computer vision. My research focuses on solving hard, real-world problems where data is scarce and compute is limited. I build **efficient, lightweight models** for data- and compute-scarce environments, and I leverage **self-supervised** and **zero-shot learning** to create robust AI that can learn from unlabeled data and adapt to new challenges. My work has been published at top-tier conferences like ECCV, ICCV, AAAI, and MICCAI.
+I am an **AI Scientist** (PhD candidate at Technical University of Munich, Helmholtz Munich) specializing in computer vision. My research focuses on solving hard, real-world problems where data is scarce and compute is limited. I build **efficient, lightweight models** for data- and compute-scarce environments, and I leverage **self-supervised** and **zero-shot learning** to create robust AI that can learn from unlabeled data and adapt to new challenges. My work has been published at top-tier conferences like ECCV, ICCV, AAAI, and MICCAI.
 
 My most recent research involves image restoration models and training foundation models for biomedical image processing.
 
