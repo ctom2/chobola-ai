@@ -31,7 +31,7 @@ Here are projects published at top-tier computer vision conferences.
 
 > **Value:** Inference is done within a couple of seconds and is **independent of image resolution**: it's just as fast on a 4K image as a 480p one. This makes it ideal for near real-time, on-device applications and improves downstream tasks, such as object detection in the dark.
 
-**Links:** **[Paper](https://arxiv.org/abs/2407.12511)**, **[Code](https://github.com/ctom2/colie)**, **[Online demo](https://colab.research.google.com/github/ctom2/colie)**
+**Links:** **[Paper](https://arxiv.org/abs/2407.12511)**, **[Code](https://github.com/ctom2/colie)**, **[🤗 Demo](https://huggingface.co/spaces/chobola/colie)**, **[Colab Demo](https://colab.research.google.com/github/ctom2/colie)**
 
 ![colie](imgs/colie.png)
 
