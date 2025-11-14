@@ -20,6 +20,15 @@ My most recent research involves image restoration models and training foundatio
 
 ---
 
+### Education
+
+* **Doctoral degree:** Technical University of Munich, Munich, Germany
+* **Master's degree:** Technical University of Munich, Munich, Germany
+* **Exchange semester:** Hong Kong Polytechnic University, Hong Kong
+* **Bachelor's degree:** Czech Technical University, Prague, Czech Republic
+
+---
+
 ## Featured Projects
 Here are projects published at top-tier computer vision conferences.
 
