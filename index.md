@@ -32,11 +32,11 @@ My most recent research involves image restoration models and training foundatio
 ## Featured Projects
 Here are selected projects published at top-tier ML and computer vision conferences.
 
-### 1. CoLIE: Fast, Zero-Shot Low-Light Image Enhancement (ECCV'24)
+### 1. CoLIE: Fast, Single-Instance Low-Light Image Enhancement (ECCV'24)
 
 > **Problem:** Enhancing low-light, high-resolution photos is computationally expensive. Current models trained on one dataset often fail on new, unseen scenes, leading to poor user experience.  
 
-> **Solution:** I built **CoLIE**, a **zero-shot** model that enhances an image without any additional training data apart from the degraded image itself within seconds by mapping 2D image coordinates to the illumination component while working in the HSV color space, avoiding the color distortion other methods suffer from.  
+> **Solution:** I built **CoLIE**, a **single-instance optimization** model that enhances an image without any additional training data apart from the degraded image itself within seconds by mapping 2D image coordinates to the illumination component while working in the HSV color space, avoiding the color distortion other methods suffer from.  
 
 > **Value:** Inference is done within a couple of seconds and is **independent of image resolution**: it's just as fast on a 4K image as a 480p one. This makes it ideal for near real-time, on-device applications and improves downstream tasks, such as object detection in the dark.
 
