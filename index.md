@@ -13,7 +13,7 @@ My most recent research involves image restoration models and training foundatio
 ---
 
 ### Technical Proficiencies
-* **ML skills:** Self-supervised learning, zero-shot learning, compute- and data-constrained environments, efficient ML, computer vision, image generation and restoration, large-scale and foundational vision models
+* **ML skills:** Self-supervised learning, zero-shot learning, single-instance optimization, efficient ML, compute- and data-constrained environments, generative models, neural implicit representations, denoising and signal restoration, transformers, foundation models, computer vision
 * **Programming languages:** Python, C/C++, SQL, Bash
 * **Libraries:** PyTorch, Scikit-Learn, NumPy, Pandas, OpenCV, Matplotlib
 * **Developer Tools:** Git, HPC, LaTeX, LLM-assisted coding
