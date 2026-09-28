@@ -8,7 +8,7 @@ title: Tomáš Chobola
 <p class="muted">researcher, runner, tinkerer<br>
 <a href="https://x.com/zeroxtom">x</a> <a href="https://linkedin.com/in/tchobola">linkedin</a> <a href="https://github.com/ctom2/">github</a> <a href="https://scholar.google.com/citations?user=KoL2wdQAAAAJ">scholar</a></p>
 
-I'm a trained researcher, finishing a PhD at the Technical University of Munich and Helmholtz Munich on lightweight models that learn from scarce data. Published at ECCV, ICCV, AAAI and MICCAI, cited over 175 times.
+I'm a trained researcher, finishing a PhD at the Technical University of Munich and Helmholtz Munich on lightweight models that learn from scarce data. Published at ECCV, ICCV, AAAI and MICCAI, cited over 189 times.
 
 I'm staying in machine learning and changing what I point it at. The papers below are where I've been rather than where I'm going, and the next set of problems is the interesting part.
 
