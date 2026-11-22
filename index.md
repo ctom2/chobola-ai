@@ -12,7 +12,7 @@ I'm a trained researcher, finishing a PhD at the Technical University of Munich 
 
 I'm staying in machine learning and changing what I point it at. The papers below are where I've been rather than where I'm going, and the next set of problems is the interesting part.
 
-I also run and race, currently 1:45 for the half marathon and 4:08 for the full, with podium ambitions I have no intention of giving up on. The same itch shows up elsewhere: around 1700 on <a href="https://www.chess.com/member/frequentpath">chess.com</a>, and a standing habit of tinkering with things that don't need to exist.
+I also run and race, currently 1:45 for the half marathon and 4:08 for the full, with podium ambitions I have no intention of giving up on. The same itch shows up elsewhere: around 1700 on <a href="https://www.chess.com/member/frequentpath">chess.com</a>, and a standing habit of tinkering with things in my free time.
 
 ## research
 
